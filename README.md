@@ -1,12 +1,38 @@
-# starter-micro-api
+# Resend with Express
 
-This is the simplest possible nodejs api using the base http library that responds to any request with: 
-```
-Yo!
-```
+This example shows how to use Resend with [Express](https://expressjs.com).
 
-## Deploy in under 10 seconds
+## Prerequisites
 
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
-- Sets up instant continuous deployment on `git push`
-- Realtime backend logs and API request monitoring
+To get the most out of this guide, you’ll need to:
+
+* [Create an API key](https://resend.com/api-keys)
+* [Verify your domain](https://resend.com/domains)
+
+## Instructions
+
+1. Define environment variables in `.env` file.
+
+2. Install dependencies:
+
+  ```sh
+npm install
+# or
+yarn
+  ```
+
+3. Run Express locally:
+
+  ```sh
+npm run dev
+  ```
+
+4. Open URL in the browser:
+
+  ```
+http://localhost:3000
+  ```
+
+## License
+
+MIT License
